@@ -1,0 +1,16 @@
+nav {
+    @include flex;
+}
+
+.nav-left {
+    width: 50%;
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.nav-right-menu {
+    @include flex-around;
+}
+
