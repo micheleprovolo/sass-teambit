@@ -2,3 +2,23 @@ main {
     width: 85%;
     margin: 0 auto;
 }
+
+.first-section {
+    display: flex;
+}
+
+.sec-left {
+    width: 50%;
+    @include flex-vertical;
+    height: 100%;
+}
+
+.sec-right {
+    width: 50%;
+    height: 100%;
+
+    img {
+        max-width: 600px;
+        max-height: 500px;
+    }
+}

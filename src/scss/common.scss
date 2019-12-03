@@ -9,3 +9,9 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@mixin flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
