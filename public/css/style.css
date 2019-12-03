@@ -5,6 +5,7 @@ nav {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 .nav-left {
@@ -31,17 +32,18 @@ main {
 .first-section {
   display: -webkit-box;
   display: flex;
+  margin-top: 100px;
 }
 
 .sec-left {
   width: 50%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  justify-content: space-around;
   height: 100%;
+}
+
+.sec-left h2,
+.sec-left h4,
+.sec-left div {
+  margin-bottom: 20px;
 }
 
 .sec-right {
@@ -52,6 +54,30 @@ main {
 .sec-right img {
   max-width: 600px;
   max-height: 500px;
+}
+
+.second-section {
+  margin-top: 100px;
+  background-color: #FFE7D2;
+}
+
+.second-section h4 {
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.container img {
+  max-width: 200px;
+  max-height: 150px;
 }
 
 * {
