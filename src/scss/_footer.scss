@@ -3,14 +3,27 @@ footer {
 
     .wrapper {
         @include flex;
+        align-items: flex-start;
     }
 
     .micro-container {
         @include flex;
+        align-items: flex-start;
+        margin-left: 150px;
+        p {
+            margin-left: 30px;
+            font-size: 20px;
+            font-weight: normal;
+            a {
+                color: blue;
+            }
+        }
     }
 
     .footer-menu {
-        @include flex;
+        display: flex;
+        align-items: flex-start;
+        margin-right: 50px;
 
         .footer-single-menu {
             @include flex-vertical;
@@ -18,6 +31,12 @@ footer {
 
             li {
                 margin-top: 10px;
+                font-size: 14px;
+            }
+
+            li:first-child {
+                font-weight: bold;
+                font-size: 18px;
             }
         }
 
