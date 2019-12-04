@@ -5,7 +5,8 @@ main {
 
 .first-section {
     display: flex;
-    margin-top: 100px;
+    margin: 90px 0;
+    
 }
 
 .sec-left {
@@ -53,14 +54,13 @@ main {
 
 
 .middle-section {
-    margin-top: 100px;
     background-color: $main-bg;
     padding: 70px 0;
+    
 
     h4 {
         text-align: center;
         font-size: 26px;
-
     }
 
     img {
@@ -92,6 +92,7 @@ main {
             width: 300px;
             height: 300px;
             display: inline-block;
+            
         }
     }
 

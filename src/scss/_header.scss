@@ -1,8 +1,18 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
 nav {
     @include flex;
-    margin-top: 20px;
+    // margin-top: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+    width: 75%;
+    margin: 20px auto;
 }
 
 .nav-left {

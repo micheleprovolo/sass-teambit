@@ -1,3 +1,11 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
 nav {
   display: -webkit-box;
   display: flex;
@@ -5,9 +13,10 @@ nav {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  margin-top: 20px;
   padding-bottom: 15px;
   border-bottom: 1px solid black;
+  width: 75%;
+  margin: 20px auto;
 }
 
 .nav-left {
@@ -51,7 +60,7 @@ main {
 .first-section {
   display: -webkit-box;
   display: flex;
-  margin-top: 100px;
+  margin: 90px 0;
 }
 
 .sec-left {
@@ -77,7 +86,7 @@ main {
   margin-right: 20px;
   border: 1px solid black;
   padding: 9px;
-  border-radius: 20%;
+  border-radius: 25px;
   color: #fff;
   background-color: #0f0f63;
 }
@@ -102,7 +111,6 @@ main {
 }
 
 .middle-section {
-  margin-top: 100px;
   background-color: #FFE7D2;
   padding: 70px 0;
 }
@@ -239,7 +247,7 @@ main {
   margin-right: 20px;
   border: 1px solid black;
   padding: 9px;
-  border-radius: 20%;
+  border-radius: 25px;
   color: #fff;
   background-color: #0f0f63;
 }
