@@ -86,6 +86,32 @@ main {
   max-height: 150px;
 }
 
+.screen-section {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.screen-sec-img img {
+  max-width: 800px;
+  max-height: 700px;
+}
+
+.screen-sec-text {
+  margin-left: 40px;
+}
+
+.screen-sec-text img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.screen-sec-text h4,
+.screen-sec-text p,
+.screen-sec-text a {
+  margin-bottom: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -51,3 +51,30 @@ main {
         max-height: 150px;
     }
 }
+
+.screen-section {
+    margin-top: 100px;
+    display: flex;
+}
+
+.screen-sec-img {
+
+    img {
+        max-width: 800px;
+        max-height: 700px;
+    }
+}
+
+.screen-sec-text {
+    margin-left: 40px;
+    
+    img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    h4, p, a {
+        margin-bottom: 20px;
+        
+    }
+}
