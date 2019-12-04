@@ -26,12 +26,7 @@ main {
         margin-bottom: 30px;
 
         a {
-            margin-right: 20px;
-            border: 1px solid black;
-            padding: 9px;
-            border-radius: 15%;
-            color: #fff;
-            background-color: rgb(15, 15, 99);
+            @include button;
 
             i {
                 color: #fff;
@@ -148,7 +143,7 @@ main {
 }
 
 .mission-section {
-    padding-top: 50px;
+    padding: 50px 0;
     background-color: $main-bg;
     text-align: center;
 
@@ -169,4 +164,37 @@ main {
             text-align: left;
         }
     }
+
+    .profile-pic {
+        display: flex;
+
+        img {
+            margin-right: 15px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .names-titles {
+            font-size: 13px;
+            line-height: 10px;
+        }
+    }
+
+    .button-container {
+        margin-bottom: 30px;
+
+        a {
+            @include button;
+
+            i {
+                color: #fff;
+                margin: 0 5px;
+            }
+        }
+
+    }
+    #email-link:hover {
+        color: blue;
+    }
+
 }
