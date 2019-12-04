@@ -6,6 +6,8 @@ nav {
   -webkit-box-align: center;
           align-items: center;
   margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
 }
 
 .nav-left {
@@ -22,10 +24,27 @@ nav {
   justify-content: space-around;
   -webkit-box-align: center;
           align-items: center;
+  font-weight: bold;
+}
+
+.nav-right-menu li:last-child {
+  border: 1px solid black;
+  display: block;
+  padding: 9px;
+  border-radius: 8%;
+}
+
+.nav-right-menu li:last-child:hover {
+  background-color: #14145a;
+  color: #fff;
+}
+
+.nav-right-menu span {
+  margin-right: 5px;
 }
 
 main {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -40,10 +59,36 @@ main {
   height: 100%;
 }
 
-.sec-left h2,
-.sec-left h4,
-.sec-left div {
-  margin-bottom: 20px;
+.sec-left h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.sec-left h4 {
+  font-size: 1.375rem;
+  margin-bottom: 30px;
+}
+
+.sec-left .button-container {
+  margin-bottom: 30px;
+}
+
+.sec-left .button-container a {
+  margin-right: 20px;
+  border: 1px solid black;
+  padding: 9px;
+  border-radius: 15%;
+  color: #fff;
+  background-color: #0f0f63;
+}
+
+.sec-left .button-container a i {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.sec-left #email-link:hover {
+  color: blue;
 }
 
 .sec-right {
@@ -179,6 +224,7 @@ footer .footer-menu .footer-single-menu li {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #58402c;
 }
 
 li {

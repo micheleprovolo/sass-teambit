@@ -1,0 +1,25 @@
+footer {
+    padding-top: 40px;
+
+    .wrapper {
+        @include flex;
+    }
+
+    .micro-container {
+        @include flex;
+    }
+
+    .footer-menu {
+        @include flex;
+
+        .footer-single-menu {
+            @include flex-vertical;
+            margin-right: 40px;
+
+            li {
+                margin-top: 10px;
+            }
+        }
+
+    }
+}

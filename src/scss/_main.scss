@@ -1,5 +1,5 @@
 main {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -12,10 +12,37 @@ main {
     width: 50%;
     height: 100%;
 
-    h2,
-    h4,
-    div {
-        margin-bottom: 20px;
+    h2 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 1.375rem; 
+        margin-bottom: 30px;
+    }
+
+    .button-container {
+        margin-bottom: 30px;
+
+        a {
+            margin-right: 20px;
+            border: 1px solid black;
+            padding: 9px;
+            border-radius: 15%;
+            color: #fff;
+            background-color: rgb(15, 15, 99);
+
+            i {
+                color: #fff;
+                margin: 0 5px;
+            }
+        }
+
+    }
+
+    #email-link:hover {
+        color: blue;
     }
 }
 
@@ -99,31 +126,5 @@ main {
             margin: 15px auto;
             text-align: left;
         }
-    }
-}
-
-footer {
-    padding-top: 40px;
-
-    .wrapper {
-        @include flex;
-    }
-
-    .micro-container {
-        @include flex;
-    }
-
-    .footer-menu {
-        @include flex;
-
-        .footer-single-menu {
-            @include flex-vertical;
-            margin-right: 40px;
-
-            li {
-                margin-top: 10px;
-            }
-        }
-
     }
 }

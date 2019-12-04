@@ -1,6 +1,8 @@
 nav {
     @include flex;
     margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 
 .nav-left {
@@ -13,5 +15,21 @@ nav {
 
 .nav-right-menu {
     @include flex-around;
-}
+    font-weight: bold;
 
+    li:last-child {
+        border: 1px solid black;
+        display: block;
+        padding: 9px;
+        border-radius: 8%;
+
+        &:hover {
+            background-color: rgb(20, 20, 90);
+            color: #fff;
+        }
+    }
+
+    span {
+        margin-right: 5px;
+    }
+}
