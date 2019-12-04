@@ -28,12 +28,17 @@ main {
 }
 
 
-.second-section {
+.middle-section {
     margin-top: 100px;
     background-color: $main-bg;
-    
+
     h4 {
         text-align: center;
+    }
+    img {
+        margin: 0 auto;
+        width: 500px;
+        max-height: 500px;
     }
 }
 

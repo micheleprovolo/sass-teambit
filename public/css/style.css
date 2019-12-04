@@ -56,13 +56,19 @@ main {
   max-height: 500px;
 }
 
-.second-section {
+.middle-section {
   margin-top: 100px;
   background-color: #FFE7D2;
 }
 
-.second-section h4 {
+.middle-section h4 {
   text-align: center;
+}
+
+.middle-section img {
+  margin: 0 auto;
+  width: 500px;
+  max-height: 500px;
 }
 
 .container {
@@ -93,9 +99,5 @@ li {
 
 a {
   text-decoration: none;
-}
-
-h1 {
-  color: red;
 }
 
