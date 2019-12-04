@@ -104,10 +104,12 @@ main {
 .middle-section {
   margin-top: 100px;
   background-color: #FFE7D2;
+  padding: 70px 0;
 }
 
 .middle-section h4 {
   text-align: center;
+  font-size: 26px;
 }
 
 .middle-section img {
@@ -116,19 +118,39 @@ main {
   max-height: 500px;
 }
 
-.container {
+.middle-section .container {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  margin-top: 20px;
+  margin: 70px 400px;
 }
 
-.container img {
-  max-width: 200px;
-  max-height: 150px;
+.middle-section .container p {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.middle-section .container img {
+  width: 150px;
+  height: 100px;
+}
+
+.middle-section .rabbit {
+  text-align: center;
+}
+
+.middle-section .rabbit img {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.middle-section #isolated-title {
+  margin-top: 80px;
 }
 
 .screen-section {
