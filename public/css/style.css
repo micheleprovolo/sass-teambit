@@ -112,6 +112,68 @@ main {
   margin-bottom: 20px;
 }
 
+.mission-section {
+  padding-top: 50px;
+  background-color: #FFE7D2;
+  text-align: center;
+}
+
+.mission-section .squared {
+  background-color: #fff;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.mission-section .squared p {
+  margin: 15px auto;
+  text-align: left;
+}
+
+footer {
+  padding-top: 40px;
+}
+
+footer .wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .micro-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .footer-menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .footer-menu .footer-single-menu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+footer .footer-menu .footer-single-menu li {
+  margin-top: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
