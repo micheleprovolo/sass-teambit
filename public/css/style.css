@@ -173,10 +173,21 @@ main {
   max-height: 250px;
 }
 
-.screen-sec-text h4,
-.screen-sec-text p,
+.screen-sec-text h4 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  line-height: 1.533334;
+}
+
+.screen-sec-text p {
+  font-size: 1.375rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
 .screen-sec-text a {
   margin-bottom: 20px;
+  display: block;
 }
 
 .mission-section {
@@ -185,14 +196,22 @@ main {
   text-align: center;
 }
 
+.mission-section h2 {
+  font-size: 40px;
+  line-height: 1.533334;
+}
+
 .mission-section .squared {
   background-color: #fff;
   max-width: 700px;
+  padding: 20px 40px;
   margin: 20px auto;
+  border: 1px solid black;
 }
 
 .mission-section .squared p {
-  margin: 15px auto;
+  padding-bottom: 20px;
+  margin: 0 auto;
   text-align: left;
 }
 

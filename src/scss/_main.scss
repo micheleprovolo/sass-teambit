@@ -77,13 +77,13 @@ main {
     .container {
         @include flex;
         margin: 70px 400px;
-    
+
         p {
             text-align: center;
             margin-top: 30px;
             line-height: 20px;
         }
-    
+
         img {
             width: 150px;
             height: 100px;
@@ -128,11 +128,22 @@ main {
         max-height: 250px;
     }
 
-    h4,
-    p,
+    h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+        line-height: 1.533334;
+    }
+
+    p {
+        font-size: 1.375rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
     a {
         margin-bottom: 20px;
-
+        display: block;
+    
     }
 }
 
@@ -141,14 +152,20 @@ main {
     background-color: $main-bg;
     text-align: center;
 
+        h2 {
+            font-size: 40px;
+            line-height: 1.533334;
+        }
     .squared {
         background-color: #fff;
         max-width: 700px;
-        // height: 450px;
+        padding: 20px 40px;
         margin: 20px auto;
+        border: 1px solid black;
 
         p {
-            margin: 15px auto;
+            padding-bottom: 20px;
+            margin: 0 auto;
             text-align: left;
         }
     }
